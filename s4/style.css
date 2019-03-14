@@ -1,0 +1,64 @@
+
+/* redefinir le style par defaut des balises */
+
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+body{
+    background: black url(al_arena.webp) no-repeat  fixed;
+    background-size: cover;
+;
+}
+h1, h2{
+    color: aliceblue;
+background:    #101640;
+font-size: 1.3em;
+text-align: center;
+padding:10px 0; 
+
+/* margin: 20px; */
+/* border:10px  blue solid; */
+}
+
+
+p{
+    background: rgba(0, 0, 0, 0.75);
+    
+    color:white;
+    border:1px solid   #101640;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    box-sizing: border-box;
+    /*permet de garder la meme taille
+     meme si onj ajoute le padding , la bordure ... */
+}
+p::first-letter{
+    color: #880d24;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 10px;
+    float: left;
+}
+div{
+    background: black;
+    width:80%;
+ 
+    height: 500px;
+    margin: 0 auto;
+    background: purple;
+}
+div img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+p img{
+    width: 300px;
+    float: right;
+    margin:0 0 15px 15px; 
+}

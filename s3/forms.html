@@ -8,6 +8,20 @@
     <style>
         label{
             cursor: pointer;
+            color: white;
+        }
+        table{
+            background:rgb(19, 18, 18);
+            width: 500px;
+        }
+        table:hover{
+            background:rgb(252, 249, 249);
+            width: 500px;
+        transition: 2s;
+        }
+        table:hover label{
+           color: black;
+        
         }
     </style>
 </head>
@@ -78,6 +92,11 @@
             <td><label for="photo">photo :</label>  </td>
             
             <td> <input type="file" name="photo" id="photo">            </td>
+        </tr>
+        <tr>
+            <td><label for="s">Salaire :</label>  </td>
+s
+            <td> <input type="number" name="s" id="s" min="0" max="999999">            </td>
         </tr>
         <tr>
             <td><label for="phone">Tel :</label>  </td>
